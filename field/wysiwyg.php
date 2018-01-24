@@ -33,6 +33,7 @@ class WysiwygField extends BaseField {
             'del-button.js',
             'ins-button.js',
             'mark-button.js',
+            'accordion-button.js',
             'wysiwyg.js',
         ),
         'css' => array(

@@ -54,6 +54,7 @@ WysiwygEditor = (function($, $field) {
                 'mark': new MarkButton(),
                 'del': new DelButton(),
                 'ins': new InsButton(),
+                'accordion': new AccordionButton(),
             }
         });
 
