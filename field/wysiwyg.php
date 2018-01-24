@@ -37,6 +37,7 @@ class WysiwygField extends BaseField {
             'box-lightbulb-button.js',
             'box-warning-button.js',
             'box-technical-button.js',
+            'tooltip-button.js',
             'wysiwyg.js',
         ),
         'css' => array(

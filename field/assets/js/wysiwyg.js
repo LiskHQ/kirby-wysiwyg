@@ -58,6 +58,7 @@ WysiwygEditor = (function($, $field) {
                 'box-lightbulb': new BoxLightbulbButton(),
                 'box-warning': new BoxWarningButton(),
                 'box-technical': new BoxTechnicalButton(),
+                'tooltip': new TooltipButton(),
             }
         });
 
