@@ -18,7 +18,7 @@ class TextConverter implements ConverterInterface
         $markdown = preg_replace('~\s+~', ' ', $value);
 
         //escape the following characters: '*', '_' and '\'
-        $markdown = preg_replace('~([*_\\\\])~', '\\\\$1', $markdown);
+//        $markdown = preg_replace('~([*_\\\\])~', '\\\\$1', $markdown);
 
         $markdown = preg_replace('~^#~', '\\\\#', $markdown);
 
