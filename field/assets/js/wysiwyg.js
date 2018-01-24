@@ -55,6 +55,9 @@ WysiwygEditor = (function($, $field) {
                 'del': new DelButton(),
                 'ins': new InsButton(),
                 'accordion': new AccordionButton(),
+                'box-lightbulb': new BoxLightbulbButton(),
+                'box-warning': new BoxWarningButton(),
+                'box-technical': new BoxTechnicalButton(),
             }
         });
 
