@@ -17,7 +17,7 @@ var TooltipButton = MediumEditor.extensions.button.extend({
     // console.info('range', range.cloneContents().cloneNode(true));
 
     this.base.cleanPaste('(tooltip: text: ' + this.getSelectedContextHtml() + ')');
-    
+
     MediumEditor.selection.moveCursor(document, range.startContainer, range.startOffset + 10);
   },
 
